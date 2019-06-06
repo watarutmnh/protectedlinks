@@ -25,7 +25,7 @@ Hide the file location without any restrictions:
 
 Limit access to logged in users and display file inline in browser:
 ```
-{{ craft.protectedLinks.link({assetId: 105, inline: true, requireLogin: true)}
+{{ craft.protectedLinks.link({assetId: 105, inline: true, requireLogin: true}) }}
 ```
 
 Restrict file access to users in groups 1 and 7; allow access only when link is clicked on your site
